@@ -155,6 +155,7 @@ function MainPage() {
                       className="gif_input"
                     />
 
+                    {/**list of search result*/}
                     <div className="list_container customScroller">
                       {gifList.map((gif) => (
                         <img
@@ -184,6 +185,7 @@ function MainPage() {
         )}
       </div>
 
+      {/**list of post  */}
       <div className="post_list_container">
         <PostDetailPage postList={PostList} />
       </div>

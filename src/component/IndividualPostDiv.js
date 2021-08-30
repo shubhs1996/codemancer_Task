@@ -13,7 +13,7 @@ function IndividualPostDiv({ id, text, gif }) {
         />
         </div>
         <div className="text_detail_container">
-          <p style={{fontWeight:"600",fontSize:"16px"}}>Itz_shuboy</p>
+          <p style={{fontWeight:"600",fontSize:"16px"}}>itz_shuboy</p>
           <p>1 hour ago</p>
         </div>
       </div>
